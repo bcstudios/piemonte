@@ -104,7 +104,7 @@
     <splash src="res/screens/windows/SplashScreenPhone.scale-240.png" width="1152" height="1920" />
   </platform>
   <preference name="Orientation" value="default" />
-  <preference name="AndroidLaunchMode" value="standard" />
+  <preference name="AndroidLaunchMode" value="singleTop" />
   <preference name="WindowsStoreDisplayName" value="Rede Piemonte Online" />
   <preference name="windows-appx-target" value="uap" />
   <preference name="windows-arch" value="anycpu" />
