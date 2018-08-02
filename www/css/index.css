@@ -94,7 +94,7 @@ body {
 
 .link {
     position: relative;
-    height: 12%;
+    height: 14%;
     margin: 5px;
     background-color: #777777;
 }
@@ -105,13 +105,7 @@ body {
     float: left;
 }
 
-    .link p {
-        text-decoration: none;
-        text-align: center;
-        line-height: 482%;
-        text-decoration-line: none;
-        color: #ffffff;
-    }
+
     .corpo-pag {
         display: block;
         width: 100%;
@@ -164,6 +158,8 @@ body {
     height: 5px;
     float: left;
     background-color: #9dff7f;
+    position: fixed;
+    z-index: 99999999;
 }
 
 .menu-identificacao-dir {
@@ -171,6 +167,9 @@ body {
     height: 5px;
     float: right;
     background-color: #9dff7f;
+    position: fixed;
+    z-index: 99999999;
+    left:50%;
 }
 
 .identif-dir {
@@ -178,6 +177,9 @@ body {
     height: 5px;
     float: right;
     background-color: #f2f2f2;
+    position: fixed;
+    z-index: 9999999;
+
 }
 
 .identif-esq {
@@ -185,6 +187,8 @@ body {
     height: 5px;
     float: right;
     background-color: #f2f2f2;
+    position: fixed;
+    z-index: 9999999;
 }
 
 #home-btn img {
@@ -353,7 +357,7 @@ body {
     font-size: 14pt;
     width: 100%;
     text-align: center;
-    margin: 24px;
+    margin: 8%;
 }
 
 
@@ -364,6 +368,16 @@ body {
 
     .link {
         height: 18%;
+    }
+
+        .link b {
+            margin: 16px;
+        }
+        .pag-home {
+            height: 61%;
+        }
+    .iframe-news {
+        height: 68%;
     }
 }
 
