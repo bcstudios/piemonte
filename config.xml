@@ -103,7 +103,7 @@
     <splash src="res/screens/windows/SplashScreen.scale-240.png" width="1152" height="1920" />
     <splash src="res/screens/windows/SplashScreenPhone.scale-240.png" width="1152" height="1920" />
   </platform>
-  <preference name="Orientation" value="portrait" />
+  <preference name="Orientation" value="default" />
   <preference name="AndroidLaunchMode" value="singleTask" />
   <preference name="WindowsStoreDisplayName" value="Rede Piemonte Online" />
   <preference name="windows-appx-target" value="uap" />
@@ -112,6 +112,6 @@
   <vs:platformSpecificValues>
     <vs:platformSpecificWidget platformName="windows" version="1.0.0.0" />
   </vs:platformSpecificValues>
-  <preference name="ShowTitle" value="False" />
-  <preference name="InAppBrowserStorageEnabled" value="False" />
+  <preference name="ShowTitle" value="True" />
+  <preference name="InAppBrowserStorageEnabled" value="True" />
 </widget>

@@ -18,8 +18,8 @@ body {
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position:left center;
-        padding:75px 0px 75px 170px;
-        margin:-90px 0px 0px -198px;
+        padding:0px 0px 0px 0px;
+        margin:0px 0px 0px 0px;
     }
 }
 
@@ -344,4 +344,31 @@ body {
     display: block;
     font-size: 13pt;
     text-align:center;
+}
+
+.link b {
+    display: block;
+    position: absolute;
+    color: #f2f2f2;
+    font-size: 14pt;
+    width: 100%;
+    text-align: center;
+    margin: 24px;
+}
+
+
+@media only screen and (orientation:landscape) {
+    .perfil {
+        display: none;
+    }
+
+    .link {
+        height: 18%;
+    }
+}
+
+@media only screen and (orientation:portrait) {
+    .mensagem-erro {
+        display: none;
+    }
 }
