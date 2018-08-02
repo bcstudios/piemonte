@@ -8,15 +8,18 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="../css/index.css">
-        <title>Equipe</title>
+        <title>Home</title>
     </head>
     <body>
         <div class="app">
             <div class="corpo-pagina">
-                <h1>Player Clube FM</h1>
-                <audio controls="true" preload="none"><source src="http://clubedejacobina.flashplayer.acessaradios.com.br:8200/" type="audio/mp3"></audio>
-                <div class="teste-video" style="width: 100%;">
-                    <iframe width="100%" height="200px" src="https://www.youtube.com/embed/A0uENkHdApo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="menu-home">
+                    <a href="Paginas/Inicio.html" target="pag-home-iframe"><nav id="home-btn"><img src="images/Home.png" /> <b>Home</b></nav></a>
+                    <a href="Paginas/Contato.html" target="pag-home-iframe"><nav id="home-btn1"><img src="images/contact.png" /><b>Contato</b></nav></a>
+</div>
+                <div class="pag-home">
+                    <iframe src="Paginas/Inicio.html" frameborder="0" width="100%" height="100%" name="pag-home-iframe"></iframe>
+
                 </div>
             </div>
             <div class="rodape">

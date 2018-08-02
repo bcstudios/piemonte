@@ -137,3 +137,211 @@ body {
     height: 82%;
     position: absolute;
 }
+
+#home-btn {
+    width: 50%;
+    height: 80px;
+    float: left;
+    background-color: #f2f2f2;
+}
+#home-btn1 {
+    width: 50%;
+    height: 80px;
+    float: right;
+    background-color: #f2f2f2;
+}
+
+.pag-home {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 79%;
+    margin-top: 80px;
+}
+
+.menu-identificacao-esq {
+    width: 50%;
+    height: 5px;
+    float: left;
+    background-color: #9dff7f;
+}
+
+.menu-identificacao-dir {
+    width: 50%;
+    height: 5px;
+    float: right;
+    background-color: #9dff7f;
+}
+
+.identif-dir {
+    width: 100%;
+    height: 5px;
+    float: right;
+    background-color: #f2f2f2;
+}
+
+.identif-esq {
+    width: 100%;
+    height: 5px;
+    float: right;
+    background-color: #f2f2f2;
+}
+
+#home-btn img {
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-btn1 img {
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+#home-btn b {
+    display: block;
+    color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2.5px;
+}
+
+#home-btn1 b {
+    display: block;
+    color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 6.5px;
+}
+
+.contato {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.Whatsapp {
+    width: 100%;
+    height: 85px;
+    background-color: #ededed;
+    margin-bottom: 3px;
+}
+
+.Telefone {
+    width: 100%;
+    height: 85px;
+    background-color: #ededed;
+    margin-bottom: 3px;
+}
+
+.Facebook {
+    width: 100%;
+    height: 85px;
+    background-color: #ededed;
+    margin-bottom: 3px;
+}
+
+.formulario {
+    width: 100%;
+    height: 85px;
+    background-color: #ededed;
+    margin-bottom: 3px;
+}
+
+.Whatsapp img {
+    height: 85%;
+    width: auto;
+    margin: 7px;
+    float: left;
+}
+
+.Telefone img {
+    height: 85%;
+    width: auto;
+    margin: 7px;
+    float: left;
+}
+
+.Facebook img {
+    height: 85%;
+    width: auto;
+    margin: 7px;
+    float: left;
+}
+
+.formulario img {
+    height: 85%;
+    width: auto;
+    margin: 7px;
+    float: left;
+}
+
+.Whatsapp b {
+    display: block;
+    position: absolute;
+    margin-top: 34px;
+    float: left;
+    left: 90px;
+    color: #333333;
+}
+
+.Telefone b {
+    display: block;
+    position: absolute;
+    margin-top: 34px;
+    float: left;
+    left: 90px;
+    color: #333333;
+}
+
+.Facebook b {
+    display: block;
+    position: absolute;
+    margin-top: 34px;
+    float: left;
+    left: 90px;
+    color: #333333;
+}
+
+.formulario b {
+    display: block;
+    position: absolute;
+    margin-top: 34px;
+    float: left;
+    left: 90px;
+    color: #333333;
+}
+
+.noar {
+    display: block;
+    margin-top: 5px;
+    position: absolute;
+    width: 100%;
+    height: 44px;
+}
+
+.conteudo-home {
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin-top: 55px;
+    position: absolute;
+}
+
+.conteudo-home video {
+    width: 100%;
+}
+
+.conteudo-home b {
+    display: block;
+    font-size: 13pt;
+    text-align:center;
+}
