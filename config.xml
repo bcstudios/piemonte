@@ -112,6 +112,6 @@
   <vs:platformSpecificValues>
     <vs:platformSpecificWidget platformName="windows" version="1.0.0.0" />
   </vs:platformSpecificValues>
-  <preference name="ShowTitle" value="True" />
-  <preference name="InAppBrowserStorageEnabled" value="True" />
+  <preference name="ShowTitle" value="False" />
+  <preference name="InAppBrowserStorageEnabled" value="False" />
 </widget>
